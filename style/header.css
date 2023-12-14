@@ -11,9 +11,9 @@ header{
 .logo_list{
     display: flex;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    gap: 15px;
+    gap: 20px;
     padding: 33px;
 }
 .logo-link{

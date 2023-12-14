@@ -1,6 +1,6 @@
 header{
     height: 100px;
-    background-color: rgb(62, 12, 112);
+    background-color: rgb(45, 11, 92);
 }
 .carbon-logo{
     height: 50px;
@@ -11,13 +11,16 @@ header{
 .logo_list{
     display: flex;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     gap: 15px;
-    padding: 30px;
+    padding: 33px;
 }
 .logo-link{
     display: flex;
-    gap: 28px;
+    gap: 25px;
     padding: 0px 40px;
+}
+.biz:hover{
+    color: crimson;
 }

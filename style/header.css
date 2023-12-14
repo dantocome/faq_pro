@@ -24,3 +24,11 @@ header{
 .biz:hover{
     color: crimson;
 }
+.login{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px 0px;
+    gap: 50px;
+    margin-top: -50px;
+    
+}

@@ -1,6 +1,10 @@
 header{
     height: 100px;
     background-color: rgb(45, 11, 92);
+    align-items:center;
+    justify-content: center;
+    top: 0;
+    position: sticky;
 }
 .carbon-logo{
     height: 50px;

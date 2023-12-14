@@ -1,9 +1,23 @@
 header{
     height: 100px;
-    background-color: rgb(59, 18, 139);
+    background-color: rgb(62, 12, 112);
 }
 .carbon-logo{
     height: 50px;
     width: 200px;
+    margin-top: 20px;
     
+}
+.logo_list{
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    gap: 15px;
+    padding: 30px;
+}
+.logo-link{
+    display: flex;
+    gap: 28px;
+    padding: 0px 40px;
 }

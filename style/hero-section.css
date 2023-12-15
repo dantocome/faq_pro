@@ -1,11 +1,12 @@
 .hero-section{
     height: 320px;
-    border: 1px solid red;
+    
     
 }
 .bg{
-    min-height: 900px;
-    max-width: 100%;
-    margin-top: -600px;
+    min-height: 960px;
+    max-width: 1516px;
+    margin-top: -650px;
+    
     
 }

@@ -17,7 +17,6 @@
 .ask{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: rgb(14, 14, 98);
-    margin-top: -200px;
     font-size: 50px;
     font-weight: bold;
     padding: 0px 100px;
@@ -25,13 +24,10 @@
 }
 .ignit-carbon{
     width:100vw;
-    margin-top: -200px;
-    
-
-    
-    
-    
+    margin-top: -200px; 
 }
-.questions{
-    border: 1px solid red;
+
+.dark{
+    border: 1px solid green;
+    margin-top: -210px;
 }

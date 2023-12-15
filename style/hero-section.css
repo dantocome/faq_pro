@@ -26,10 +26,11 @@
 }
 .ignit-carbon{
     width:100vw;
-    margin-top: -200px; 
+    margin-top: -250px; 
 }
 
 .dark{
-    position: absolute;
-    margin-top: -210px;
+   border: 1px solid pink;
+   margin-top: -10em;
+   
 }

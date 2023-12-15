@@ -4,14 +4,8 @@
 }
 .bg{
     min-height: 970px;
-    max-width: 100vw;
-    margin-top: -650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-    
+    max-width: 99vw;
+    margin-top: -650px;  
 }
 .ask{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -19,19 +13,13 @@
     font-size: 50px;
     font-weight: bold;
     padding: 0px 100px;
-    line-height: 1;
-    margin: 0px;
-    
-    
+    line-height: 1;  
 }
 .ignit-carbon{
-    width:100vw;
-    margin-top: -215px;
-    
-    
+    width:98.8vw;
+    margin-top: -215px;   
 }
 
 .dark{
-   margin-top: -12em;
-   
+   margin-top: -13em; 
 }

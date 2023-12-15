@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     
     
 }
@@ -29,6 +30,6 @@
 }
 
 .dark{
-    position: absolute;
+    position: relative;
     margin-top: -210px;
 }

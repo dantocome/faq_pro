@@ -38,6 +38,18 @@
     font-family:"Manrope";
     font-weight: 800;
 }
+.what6{
+    color: rgb(20, 20, 112);
+    font-size: 25px;
+    font-family:"Manrope";
+    font-weight: 800;
+}
+.what7{
+    color: rgb(20, 20, 112);
+    font-size: 25px;
+    font-family:"Manrope";
+    font-weight: 800;
+}
 .answer1{
     font-size: 17px;
     font-family: "Manrope";
@@ -68,6 +80,20 @@
     line-height: 2;
 }
 .answer5{
+    font-size: 17px;
+    font-family: "Manrope";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+}
+.answer6{
+    font-size: 17px;
+    font-family: "Manrope";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+}
+.answer7{
     font-size: 17px;
     font-family: "Manrope";
     font-weight: 600;

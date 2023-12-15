@@ -1,5 +1,6 @@
 .hero-section{
     height: 320px; 
+    border: 1px solid orange;
 }
 .bg{
     min-height: 970px;
@@ -8,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    
     
     
 }
@@ -25,7 +26,7 @@
 }
 .ignit-carbon{
     width:100vw;
-    margin-top: -200px;
+    margin-top: -215px;
     
     
 }

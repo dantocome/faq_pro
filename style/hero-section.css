@@ -22,14 +22,18 @@
     font-weight: bold;
     padding: 0px 100px;
     line-height: 1;
+    margin: 0px;
+    
     
 }
 .ignit-carbon{
     width:100vw;
-    margin-top: -250px; 
+    margin-top: -200px;
+    
+    
 }
 
 .dark{
-   margin-top: -9.5em;
+   margin-top: -12em;
    
 }

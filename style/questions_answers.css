@@ -111,3 +111,10 @@
     line-height: 4;
     font-family: "Manrope";
 }
+
+#plus{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding: 5px;
+}

@@ -12,7 +12,11 @@
     font-size: 25px;
     font-family:"Manrope";
     font-weight: 800;
+    display: flex;
+    gap: 300px;
+    
 }
+
 
 .what2{
     color: rgb(20, 20, 112);
@@ -56,6 +60,7 @@
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
+    
 }
 .answer2{
     font-size: 17px;

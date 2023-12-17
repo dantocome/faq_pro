@@ -1,6 +1,6 @@
 .questions_answers{
     height: 600px;
-    margin-top: 20px;
+    margin-top: 120px;
     
     
 }
@@ -9,69 +9,90 @@
 }
 .what1{
     color: rgb(20, 20, 112);
-    font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-size: 20px;
+    font-family:"Poppins";
+    font-weight: 600;
     display: flex;
-    gap: 300px;
+    gap: 390px;
+    padding-top: 25px;
     
+    
+}
+.quest1{
+    background-color: white;
+    border: 1px solid gray;
+    width: 630px;
+    height: 200px;
+    
+    
+}
+.para1{
+    padding: 0px 20px;
+    
+}
+.answer1{
+    padding: 0px 20px;
 }
 
 
 .what2{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
 }
 .what3{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
+    
 }
 .what4{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
 }
 .what5{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
 }
 .what6{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
 }
 .what7{
     color: rgb(20, 20, 112);
     font-size: 25px;
-    font-family:"Manrope";
-    font-weight: 800;
+    font-family:"Poppins";
+    font-weight: 600;
 }
 .answer1{
-    font-size: 17px;
-    font-family: "Manrope";
+    font-size: 15.5px;
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
+    padding-top: 20px;
     
 }
 .answer2{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
 }
 .answer3{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
@@ -79,28 +100,28 @@
 
 .answer4{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
 }
 .answer5{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
 }
 .answer6{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
 }
 .answer7{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
@@ -109,12 +130,19 @@
     font-weight: 800;
     color: rgb(70, 65, 65);
     line-height: 4;
-    font-family: "Manrope";
+    font-family: "Poppins";
 }
 
 #plus{
     border: none;
     background-color: whitesmoke;
     font-size: 17px;
-    padding: 5px;
+    padding:  5px;
+    border-radius: 5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
 }

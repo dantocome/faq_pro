@@ -20,28 +20,29 @@
 }
 .quest1{
     background-color: white;
-    border: 1px solid gray;
     width: 630px;
     height: 200px;
-    
-    
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px
+      
 }
 .para1{
     padding: 0px 20px;
     
+    
 }
-.answer1{
-    padding: 0px 20px;
-}
+
 
 
 .what2{
     color: rgb(20, 20, 112);
-    font-size: 25px;
+    font-size: 20px;
     font-family:"Poppins";
     font-weight: 600;
     display: flex;
-    gap: 20px;
+    gap: 120px;
+    padding-top: 25px;
 }
 .what3{
     color: rgb(20, 20, 112);
@@ -75,13 +76,17 @@
     font-weight: 600;
 }
 .answer1{
-    font-size: 15.5px;
+    font-size: 16px;
     font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
-    padding-top: 20px;
+    margin-top: 25px;
+    padding: 0px 20px;
     
+}
+.ans1{
+    padding-top: 20px;
 }
 .answer2{
     font-size: 17px;

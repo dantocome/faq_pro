@@ -29,9 +29,21 @@
 }
 .para1{
     padding: 0px 20px;
-    
+}
+.para2{
+    padding: 0px 20px;
     
 }
+.quest2{
+    background-color: white;
+    width: 630px;
+    height: 410px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+}
+
 
 
 
@@ -40,9 +52,11 @@
     font-size: 20px;
     font-family:"Poppins";
     font-weight: 600;
-    display: flex;
     gap: 120px;
     padding-top: 25px;
+    margin-top: 20px;
+    
+    
 }
 .what3{
     color: rgb(20, 20, 112);
@@ -84,16 +98,19 @@
     margin-top: 25px;
     padding: 0px 20px;
     
+    
 }
 .ans1{
     padding-top: 20px;
 }
 .answer2{
-    font-size: 17px;
+    font-size: 16px;
     font-family: "Poppins";
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
+    margin-top: 30px;
+    padding: 0px 20px;
 }
 .answer3{
     font-size: 17px;
@@ -142,12 +159,25 @@
     border: none;
     background-color: whitesmoke;
     font-size: 17px;
-    padding:  5px;
+    padding:  10px;
     border-radius: 5px;
     height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
     
-
+}
+#plus2{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding:  10px;
+    border-radius: 5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-left: 555px;
+    margin-top: -40px;
 }

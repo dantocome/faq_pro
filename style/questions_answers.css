@@ -2,9 +2,12 @@
     height: 600px;
     margin-top: 120px;
     display: flex;
-    padding: 0px 50px 0px 50px;
-    
-    
+      
+}
+.quess{
+    display: flex;
+    border: 1px solid red;
+    padding: 0px 70px 0px ;
 }
 .go{
     color: red;

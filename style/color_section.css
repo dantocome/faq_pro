@@ -8,6 +8,7 @@
     height: 350px;
     margin: auto;
     margin-top: 140px;
+    border-radius: 20px;
 }
 .stil{
     font-family: "Hind Madurai";
@@ -16,4 +17,15 @@
     font-weight: 700;
     text-align: center;
     padding: 50px;
+}
+#btn{
+    margin-left: 500px;
+    width: 250px;
+    height: 65px;
+    background-color: rgb(255, 12, 93);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
 }

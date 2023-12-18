@@ -1,5 +1,6 @@
 .color_section{
-    height: 700px;
+    height: 600px;
+    border: 1px solid red;
     
 }
 .color_container{

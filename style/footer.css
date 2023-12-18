@@ -1,0 +1,29 @@
+.footer{
+    height: 500px;
+    background-color:  rgb(45, 11, 92);
+}
+.logo2{
+    width: 120px;
+}
+.nija{
+    width: 25px;
+    height: 17px;
+    
+    
+}
+.nij{
+    display: flex;
+    gap: 10px;
+    font-family: "Hind Madurai";
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+.naira{
+    font-size: 20px;
+    color:  rgb(129, 87, 188);
+}

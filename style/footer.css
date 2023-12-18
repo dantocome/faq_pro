@@ -16,7 +16,7 @@
     gap: 10px;
     font-family: "Hind Madurai";
     color: white;
-    border: 1px solid white;
+    border: 1px solid  rgb(196, 168, 235);
     width: 150px;
     height: 40px;
     align-items: center;
@@ -26,4 +26,9 @@
 .naira{
     font-size: 20px;
     color:  rgb(129, 87, 188);
+}
+.icon-niga{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
   const para1 = document.querySelector(".para1");
   const para2 = document.querySelector(".para2")
+  const para3 = document.querySelector(".para3");
 
   para1.addEventListener("click", function(){
     const answer1 = this.nextElementSibling;
@@ -26,5 +27,18 @@ document.addEventListener("DOMContentLoaded", function(){
         answer2.style.display = "block";
         plus2.textContent = "+"
     }
+  })
+
+  para3.addEventListener("click", function(){
+    const answer3 = this.nextElementSibling;
+    const plus3 = document.getElementById("plus3");
+    if(answer3.style.display==="block"){
+        answer3.style.display = "none";
+        plus3.textContent = "-";
+    }else{
+        answer3.style.display = "block";
+        plus3.textContent = "+"
+    }
+
   })
 });

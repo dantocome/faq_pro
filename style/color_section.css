@@ -1,0 +1,10 @@
+.color_section{
+    height: 700px;
+    
+}
+.color_container{
+    background-color: rgb(212, 247, 235);
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+}

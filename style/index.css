@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("hero-section.css");
 @import url("questions_answers.css");
+@import url("color_section.css");
 
 *{
   padding: 0;

@@ -3,7 +3,7 @@
     
 }
 .color_container{
-    background-color: rgb(212, 247, 235);
+    background-color: rgb(226, 250, 242);
     width: 1280px;
     height: 350px;
     margin: auto;
@@ -28,4 +28,7 @@
     font-weight: 700;
     border: none;
     border-radius: 10px;
+}
+#btn:hover{
+    background-image: -webkit-linear-gradient(  rgb(45, 11, 92), rgb(255, 12, 93));
 }

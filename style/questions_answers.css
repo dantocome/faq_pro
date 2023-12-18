@@ -1,11 +1,15 @@
 .questions_answers{
-    height: 2800px;
-    margin-top: 120px;
+    height: 2900px;
+    border: 1px solid red;
+    padding: 20px;
+    margin-top: 20px;
       
 }
 .quess{
     display: flex;
-    padding: 0px 20px 0px ;
+    justify-content: center;
+    margin-top: 70px;
+    
 }
 
 .go{

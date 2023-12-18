@@ -7,4 +7,13 @@
     width: 1280px;
     height: 350px;
     margin: auto;
+    margin-top: 30px;
+}
+.stil{
+    font-family: "Hind Madurai";
+    font-size: 50px;
+    color: rgb(12, 12, 86);
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
 }

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
         answer1.style.display = "block"
         plus.textContent ="-";
     }else{
-        answer1.style.display ="none";
+        answer1.style.display ="block";
         plus.textContent ="+"
     }
 

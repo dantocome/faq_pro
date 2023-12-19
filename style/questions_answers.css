@@ -48,7 +48,6 @@
     width: 630px;
     height:75px ;
     margin-left: -20px;
-    border: 1px solid red;
 }
 .what1{
     color: rgb(20, 20, 112);
@@ -383,6 +382,7 @@
     margin-top: 10px;
     padding: 0px 20px;
     height: 300px;
+    display: none;
 }
 .sub{
     font-weight: 800;
@@ -492,6 +492,7 @@
     width: 30px;
     margin-left: 545px;
     margin-top: -30px;
+    cursor: pointer;
 }
 #plus8{
     border: none;

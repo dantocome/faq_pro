@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function(){
   const plus5 = document.getElementById("plus5");
   const question6 = document.querySelector(".question6");
   const plus6 = document.getElementById("plus6");
+  const question7 = document.querySelector(".question7");
+  const plus7 = document.getElementById("plus7");
 
 
 
@@ -81,6 +83,17 @@ document.addEventListener("DOMContentLoaded", function(){
   }else{
       answer6.style.display ="block";
       plus6.textContent ="-"
+  }
+ })
+
+ question7.addEventListener("click", function(){
+  const answer7 = this.nextElementSibling;
+  if(answer7.style.display==="block"){
+    answer7.style.display = "none";
+    plus7.textContent = "+";
+  }else{
+    answer7.style.display = "block";
+    plus7.textContent = "-";
   }
  })
 });

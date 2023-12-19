@@ -426,7 +426,7 @@
     line-height: 2;
     padding: 0px 20px;
     height: 110px;
-    display: block;
+    display: none;
     height: 80px;
     margin-top: -10px;
 }
@@ -556,5 +556,17 @@
     cursor: pointer;
 }
 #plus9{
-    
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding:  10px;
+    border-radius: 5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-left: 540px;
+    margin-top: -30px;
+    cursor: pointer;
 }

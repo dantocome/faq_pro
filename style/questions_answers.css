@@ -49,6 +49,18 @@
     height:75px ;
     margin-left: -20px;
 }
+.question8{
+    width: 630px;
+    height:75px ;
+    margin-left: -20px;
+
+}
+.question9{
+    width: 630px;
+    height:75px ;
+    margin-left: -20px;
+}
+
 .what1{
     color: rgb(20, 20, 112);
     font-size: 20px;
@@ -133,6 +145,24 @@
     margin-top: 25px;
     background-color: white;
 }
+.para8{
+    padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
+}
+.para9{
+    padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
+}
 .quest2{
     background-color: white;
     width: 630px;
@@ -179,24 +209,8 @@
     box-shadow: 2px 2px 7px;
     margin-top: 25px;
 }
-.quest7{
-    background-color: white;
-    width: 630px;
-    height: 345px;
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px;
-    margin-top: 25px;
-}
-.quest8{
-    background-color: white;
-    width: 630px;
-    height: 160px;
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px;
-    margin-top: 25px;
-}
+
+
 .quest9{
     background-color: white;
     width: 630px;
@@ -297,6 +311,16 @@
     font-weight: 600;
     gap: 390px;
     padding-top: 25px;
+    margin-left: 38px;
+}
+.what9{
+    color: rgb(20, 20, 112);
+    font-size: 20px;
+    font-family:"Poppins";
+    font-weight: 600;
+    gap: 390px;
+    padding-top: 25px;
+    margin-left: 38px;
 }
 .answer1{
     font-size: 15px;
@@ -383,6 +407,28 @@
     padding: 0px 20px;
     height: 300px;
     display: none;
+}
+.answer8{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+    padding: 0px 20px;
+    height: 110px;
+    display: none;
+}
+.answer9{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+    padding: 0px 20px;
+    height: 110px;
+    display: block;
+    height: 80px;
+    margin-top: -10px;
 }
 .sub{
     font-weight: 800;
@@ -505,8 +551,9 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    margin-left: 557px;
+    margin-left: 540px;
     margin-top: -30px;
+    cursor: pointer;
 }
 #plus9{
     

@@ -5,7 +5,6 @@
       
 }
 .quess{
-    display: flex;
     justify-content: center;
     margin-top: 70px;
     
@@ -14,6 +13,12 @@
 .go{
     color: red;
 }
+.question{
+   width: 630px;
+   margin-left: -20px;
+   height: 70px;
+   
+}
 .what1{
     color: rgb(20, 20, 112);
     font-size: 20px;
@@ -21,9 +26,8 @@
     font-weight: 600;
     display: flex;
     gap: 390px;
-    padding-top: 25px;
-    
-    
+    padding-top: 25px; 
+    margin-left: 20px;
 }
 .quest1{
     background-color: white;
@@ -36,6 +40,12 @@
 }
 .para1{
     padding: 0px 20px;
+    background-color: white;
+    width: 630px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
 }
 .para2{
     padding: 0px 20px;
@@ -138,13 +148,10 @@
     margin-top: 25px;
 }
 .quest11{
-    background-color: white;
-    width: 630px;
-    height: 380px;
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px;
-    margin-top: 25px;
+
+}
+.what1{
+    
 }
 
 
@@ -224,9 +231,10 @@
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
-    margin-top: 25px;
-    padding: 0px 20px;
+    margin-top: 10px;
+    padding: 0px 10px;
     display: block;
+    height: 110px;
     
     
 }

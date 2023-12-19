@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function(){
-  const para1 = document.querySelector(".para1");
+  const question = document.querySelector(".question");
   const para2 = document.querySelector(".para2")
   const para3 = document.querySelector(".para3");
+  const plus = document.getElementById("plus");
 
-  para1.addEventListener("click", function(){
+
+  question.addEventListener("click", function(){
     const answer1 = this.nextElementSibling;
-    const plus = document.getElementById("plus");
-
     if(answer1.style.display==="block"){
         answer1.style.display = "none"
         plus.textContent ="-";

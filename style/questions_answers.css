@@ -19,6 +19,10 @@
    height: 70px;
    
 }
+.question2{
+    width: 630px;
+    margin-left: -20px;
+}
 .what1{
     color: rgb(20, 20, 112);
     font-size: 20px;
@@ -49,6 +53,12 @@
 }
 .para2{
     padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
     
 }
 .para3{
@@ -74,6 +84,7 @@
     border-radius: 10px;
     box-shadow: 2px 2px 7px;
     margin-top: 25px;
+    
 }
 .quest3{
     background-color: white;
@@ -162,9 +173,10 @@
     font-size: 20px;
     font-family:"Poppins";
     font-weight: 600;
-    gap: 120px;
+    height: 100px;
     padding-top: 25px;
-    margin-top: 20px;
+    margin-top: -15px;
+    margin-left: 30px;
     
     
 }
@@ -250,6 +262,8 @@
     margin-top: 30px;
     padding: 0px 20px;
     display: block;
+    height: 285px;
+    margin-top: 10px;
     
 }
 .answer3{
@@ -331,7 +345,7 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    margin-left: 555px;
+    margin-left: 550px;
     margin-top: -40px;
     cursor: pointer;;
 }

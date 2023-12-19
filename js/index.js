@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
   const question = document.querySelector(".question");
-  const para2 = document.querySelector(".para2")
+  const question2 = document.querySelector(".question2")
   const para3 = document.querySelector(".para3");
   const plus = document.getElementById("plus");
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   });
   
-  para2 .addEventListener("click", function(){
+  question2 .addEventListener("click", function(){
     const answer2 = this.nextElementSibling;
     const plus2 = document.getElementById("plus2");
     if(answer2.style.display==="block"){

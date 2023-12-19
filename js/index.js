@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
   question.addEventListener("click", function(){
     const answer1 = this.nextElementSibling;
-    if(answer1.style.display==="block"){
-        answer1.style.display = "none"
+    if(answer1.style.display==="none"){
+        answer1.style.display = "block"
         plus.textContent ="-";
     }else{
-        answer1.style.display ="block";
+        answer1.style.display ="none";
         plus.textContent ="+"
     }
 

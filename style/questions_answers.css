@@ -1,12 +1,14 @@
 .questions_answers{
-    height: 2900px;
+    height: 900px;
     padding: 20px;
     margin-top: 20px;
+    border: 1px solid red;
       
 }
 .quess{
     justify-content: center;
     margin-top: 70px;
+    display: flex;
     
 }
 
@@ -70,6 +72,12 @@
     height:75px ;
     margin-left: -20px;
 }
+.question12{
+    width: 630px;
+    height:75px ;
+    margin-left: -20px;
+
+}
 
 .what1{
     color: rgb(20, 20, 112);
@@ -96,7 +104,7 @@
     width: 630px;
     margin-left: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 7px;
+    box-shadow: 2px 2px 3px;
     margin-top: 25px;
 }
 .para2{
@@ -183,6 +191,15 @@
     background-color: white;
 }
 .para11{
+    padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
+}
+.para12{
     padding: 0px 20px;
     margin-left: 20px;
     width: 630px;
@@ -481,6 +498,18 @@
     margin-top: 5px;
     display: none;
 }
+.answer12{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+    padding: 0px 20px;
+    height: 300px;
+    margin-top: 10px;
+    display: block;
+    
+}
 .sub{
     font-weight: 800;
     color: rgb(70, 65, 65);
@@ -650,4 +679,19 @@
     margin-left: 540px;
     margin-top: -30px;
     cursor: pointer;
+}
+#plus12{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding:  10px;
+    border-radius: 5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-left: 540px;
+    margin-top: -30px;
+    cursor: pointer; 
 }

@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const plus10 = document.getElementById("plus10");
   const question11 = document.querySelector(".question11");
   const plus11 = document.getElementById("plus11");
+  const question12 = document.querySelector(".question12");
+  const plus12 = document.getElementById("plus12");
+
 
 
 
@@ -155,4 +158,15 @@ question11.addEventListener("click", function(){
 
 })
 
+question12.addEventListener("click", function(){
+  const answer12 = this.nextElementSibling;
+  if(answer12.style.display==="block"){
+      answer12.style.display = "none";
+      plus12.textContent = "+";
+  }else{
+      answer12.style.display = "block";
+      plus12.textContent = "-"
+  }
+
+})
 });

@@ -1,5 +1,7 @@
 .color_section{
-    height: 400px;
+    height: 500px;
+    border: 1px solid red;
+    
 
     
 }
@@ -8,7 +10,7 @@
     width: 1280px;
     height: 350px;
     margin: auto;
-    margin-top: -40px;
+    margin-top: 40px;
     border-radius: 20px;
 }
 .stil{

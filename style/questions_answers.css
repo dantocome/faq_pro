@@ -26,9 +26,12 @@
 .question3{
     width: 630px;
     margin-left: -20px;
-    height:70px ;
-    
-    
+    height:70px ;  
+}
+.question4{
+    width: 630px;
+    margin-left: -20px;
+    height:75px ; 
 }
 .what1{
     color: rgb(20, 20, 112);
@@ -70,7 +73,6 @@
 }
 .para3{
     padding: 0px 20px;
-    padding: 0px 20px;
     margin-left: 20px;
     width: 630px;
     border-radius: 10px;
@@ -81,6 +83,12 @@
 }
 .para4{
     padding:0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
 }
 .para5{
     padding: 0px 20px;
@@ -215,7 +223,8 @@
     font-weight: 600;
     gap: 120px;
     padding-top: 25px;
-    margin-top: 20px;
+    margin-top: 3px;
+    margin-left: 40px;
 
 }
 .what5{
@@ -301,8 +310,10 @@
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
-    margin-top: 25px;
+    margin-top: 10px;
     padding: 0px 20px;
+    height: 540px;
+    display: none;
 }
 .answer5{
     font-size: 15px;
@@ -393,8 +404,9 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    margin-left: 557px;
+    margin-left: 540px;
     margin-top: -35px; 
+    cursor: pointer;
 }
 #plus5{
     border: none;

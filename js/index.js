@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
   const question = document.querySelector(".question");
   const question2 = document.querySelector(".question2")
-  const para3 = document.querySelector(".para3");
-  const plus = document.getElementById("plus");
+  const plus2 = document.getElementById("plus2");
+  const question3 = document.querySelector(".question3");
+  const plus3 = document.getElementById("plus3");
 
 
   question.addEventListener("click", function(){
@@ -19,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function(){
   
   question2 .addEventListener("click", function(){
     const answer2 = this.nextElementSibling;
-    const plus2 = document.getElementById("plus2");
     if(answer2.style.display==="block"){
         answer2.style.display = "none";
         plus2.textContent = "+"
@@ -27,6 +27,18 @@ document.addEventListener("DOMContentLoaded", function(){
         answer2.style.display = "block";
         plus2.textContent = "-"
     }
+  })
+
+  question3.addEventListener("click", function(){
+    const answer3 = this.nextElementSibling;
+    if(answer3.style.display==="block"){
+      answer3.style.display = "none";
+      plus3.textContent = "+"
+    }else{
+      answer3.style.display = "block";
+      plus3.textContent = "-";
+    }
+
   })
 
   para3.addEventListener("click", function(){

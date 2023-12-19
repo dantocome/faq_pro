@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function(){
   const plus8 = document.getElementById("plus8");
   const question9 = document.querySelector(".question9");
   const plus9 = document.getElementById("plus9");
+  const question10 = document.querySelector(".question10");
+  const plus10 = document.getElementById("plus10");
 
 
 
@@ -126,4 +128,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
 })
 
+question10.addEventListener("click", function(){
+  const answer10 = this.nextElementSibling;
+  if(answer10.style.display==="block"){
+      answer10.style.display = "none";
+      plus10.textContent = "+";
+  }else{
+      answer10.style.display = "block";
+      plus10.textContent = "-"
+  }
+
+})
 });

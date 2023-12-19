@@ -60,6 +60,11 @@
     height:75px ;
     margin-left: -20px;
 }
+.question10{
+    width: 630px;
+    height:75px ;
+    margin-left: -20px;
+}
 
 .what1{
     color: rgb(20, 20, 112);
@@ -155,6 +160,15 @@
     background-color: white;
 }
 .para9{
+    padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
+}
+.para10{
     padding: 0px 20px;
     margin-left: 20px;
     width: 630px;
@@ -322,6 +336,16 @@
     padding-top: 25px;
     margin-left: 38px;
 }
+.what10{
+    color: rgb(20, 20, 112);
+    font-size: 20px;
+    font-family:"Poppins";
+    font-weight: 600;
+    gap: 390px;
+    padding-top: 25px;
+    margin-left: 38px;
+    
+}
 .answer1{
     font-size: 15px;
     font-family: "Poppins";
@@ -429,6 +453,17 @@
     display: none;
     height: 80px;
     margin-top: -10px;
+}
+.answer10{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgb(130, 126, 126);
+    line-height: 2;
+    padding: 0px 20px;
+    height: 180px;
+    margin-top: 5px;
+    display: none;
 }
 .sub{
     font-weight: 800;
@@ -556,6 +591,21 @@
     cursor: pointer;
 }
 #plus9{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding:  10px;
+    border-radius: 5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-left: 540px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#plus10{
     border: none;
     background-color: whitesmoke;
     font-size: 17px;

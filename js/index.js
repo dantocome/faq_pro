@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const plus4 = document.getElementById("plus4");
   const question5 = document.querySelector(".question5");
   const plus5 = document.getElementById("plus5");
+  const question6 = document.querySelector(".question6");
+  const plus6 = document.getElementById("plus6");
+
 
 
 
@@ -69,4 +72,15 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
   });
+
+ question6.addEventListener("click", function(){
+  const answer6 = this.nextElementSibling;
+  if(answer6.style.display==="block"){
+      answer6.style.display = "none"
+      plus6.textContent ="+";
+  }else{
+      answer6.style.display ="block";
+      plus6.textContent ="-"
+  }
+ })
 });

@@ -42,8 +42,13 @@
 .question6{
     width: 630px;
     height:75px ;
-    border: 1px solid red;
     margin-left: -20px;
+}
+.question7{
+    width: 630px;
+    height:75px ;
+    margin-left: -20px;
+    border: 1px solid red;
 }
 .what1{
     color: rgb(20, 20, 112);
@@ -122,6 +127,12 @@
 }
 .para7{
     padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
 }
 .quest2{
     background-color: white;
@@ -273,12 +284,12 @@
 }
 .what7{
     color: rgb(20, 20, 112);
-    font-size: 25px;
+    font-size: 20px;
     font-family:"Poppins";
     font-weight: 600;
     gap: 120px;
     padding-top: 25px;
-    margin-top: 20px;
+    margin-left: 35px;
 }
 .what8{
     color: rgb(20, 20, 112);
@@ -358,8 +369,10 @@
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
-    margin-top: 25px;
+    margin-top: -px;
     padding: 0px 20px;
+    height: 380px;
+    display: none;
 }
 .answer7{
     font-size: 15px;
@@ -367,8 +380,9 @@
     font-weight: 600;
     color: rgb(130, 126, 126);
     line-height: 2;
-    margin-top: 25px;
+    margin-top: 10px;
     padding: 0px 20px;
+    height: 300px;
 }
 .sub{
     font-weight: 800;
@@ -463,6 +477,7 @@
     width: 30px;
     margin-left: 557px;
     margin-top: -35px;
+    cursor: pointer;
 }
 #plus7{
     border: none;
@@ -475,8 +490,8 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    margin-left: 557px;
-    margin-top: -35px;
+    margin-left: 545px;
+    margin-top: -30px;
 }
 #plus8{
     border: none;

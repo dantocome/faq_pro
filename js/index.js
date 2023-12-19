@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
   question.addEventListener("click", function(){
     const answer1 = this.nextElementSibling;
-    if(answer1.style.display==="none"){
-        answer1.style.display = "block"
-        plus.textContent ="-";
+    if(answer1.style.display==="block"){
+        answer1.style.display = "none"
+        plus.textContent ="+";
     }else{
         answer1.style.display ="block";
-        plus.textContent ="+"
+        plus.textContent ="-"
     }
 
   });
@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function(){
     const plus2 = document.getElementById("plus2");
     if(answer2.style.display==="block"){
         answer2.style.display = "none";
-        plus2.textContent = "-"
+        plus2.textContent = "+"
     }else{
         answer2.style.display = "block";
-        plus2.textContent = "+"
+        plus2.textContent = "-"
     }
   })
 

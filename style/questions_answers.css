@@ -38,6 +38,13 @@
     margin-left: -20px;
     height:75px ;
 }
+
+.question6{
+    width: 630px;
+    height:75px ;
+    border: 1px solid red;
+    margin-left: -20px;
+}
 .what1{
     color: rgb(20, 20, 112);
     font-size: 20px;
@@ -106,6 +113,12 @@
 }
 .para6{
     padding: 0px 20px;
+    margin-left: 20px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-top: 25px;
+    background-color: white;
 }
 .para7{
     padding: 0px 20px;
@@ -256,7 +269,7 @@
     font-weight: 600;
     gap: 120px;
     padding-top: 25px;
-    margin-top: 20px;
+    margin-left: 20px;
 }
 .what7{
     color: rgb(20, 20, 112);

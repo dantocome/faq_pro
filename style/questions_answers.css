@@ -1,8 +1,8 @@
 .questions_answers{
-    height: 900px;
+    height: 950px;
     padding: 20px;
     margin-top: 20px;
-    border: 1px solid red;
+    
       
 }
 .quess{
@@ -12,9 +12,6 @@
     
 }
 
-.go{
-    color: red;
-}
 .question{
    width: 630px;
    margin-left: -20px;
@@ -507,7 +504,7 @@
     padding: 0px 20px;
     height: 300px;
     margin-top: 10px;
-    display: block;
+    display: none;
     
 }
 .sub{

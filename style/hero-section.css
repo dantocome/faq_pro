@@ -23,3 +23,26 @@
 .dark{
    margin-top: -13em; 
 }
+.sk{
+    display: none;
+}
+
+@media screen and (max-width:375px){
+    .bg{
+        display:none ;
+    }
+    .sk{
+        display: block;
+        color: rgb(14, 14, 98);
+        font-size: 30px;
+        margin-top: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .hero-section{
+        height: 200px; 
+        border: 1px solid red;
+        background-color: rgb(253, 243, 253);
+        
+    }
+}

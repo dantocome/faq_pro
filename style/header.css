@@ -75,11 +75,12 @@ li a{
   }
   .menu-icon{
     display: block;
+    margin-top: 10px;
   }
 
   .logo{
     display: flex;
-    gap: 150px;
+    gap: 170px;
     border: 1px solid red;
     margin-top: 10px;
     align-items: center;
@@ -90,6 +91,7 @@ li a{
 .carbon-logo{
     height: 30px;
     width: 120px;
+    margin-top: 10px;
     
 }
 }

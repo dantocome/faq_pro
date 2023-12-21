@@ -1,10 +1,11 @@
 .questions_answers{
-    height: 950px;
+    
     padding: 20px;
     margin-top: 20px;
+    border: 1px solid yellow;
     
-      
 }
+
 .quess{
     justify-content: center;
     margin-top: 70px;
@@ -172,6 +173,7 @@
     background-color: white;
     border: 1px solid rgb(235, 234, 234);
     box-shadow: 0px 5px 12px rgb(239, 238, 238);
+    border: 1px solid red;
 }
 .para8{
     padding: 0px 20px;
@@ -303,9 +305,10 @@
     height: 100px;
     padding-top: 25px;
     margin-top: -15px;
-    margin-left: 30px;
-    
-    
+    margin-left: 30px; 
+}
+.what22{
+    display: none;
 }
 .what3{
     color: rgb(20, 20, 112);
@@ -715,9 +718,16 @@
     margin-top: -30px;
     cursor: pointer; 
 }
+.diff{
+    display: none;
+}
+.dif{
+    display: block;
+}
 
 @media screen and (max-width:375px){
-    .estions_answers{
+   
+    .questions_answers{
         height: 950px;
         padding: 20px;
         margin-top: 20px;
@@ -733,13 +743,24 @@
     .para1{
         padding: 0px 20px;
         background-color: white;
-        width: 300px;
+        width: 320px;
         margin-left: 20px;
         border-radius: 10px;
         border: 1px solid rgb(235, 234, 234);
         box-shadow: 0px 5px 12px rgb(239, 238, 238);
         margin-top: 25px;
     }
+    .para2{
+        padding: 0px 20px;
+        background-color: white;
+        width: 320px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(235, 234, 234);
+        box-shadow: 0px 5px 12px rgb(239, 238, 238);
+        margin-top: 25px;
+    }
+
     .what1{
         color: rgb(20, 20, 112);
         font-size: 20px;
@@ -749,6 +770,55 @@
         gap: 70px;
         padding-top: 25px; 
         margin-left: 20px;
+    }
+    .what22{
+        color: rgb(20, 20, 112);
+        font-size: 20px;
+        font-family:"Poppins";
+        font-weight: 600;
+        display: flex;
+        gap: 70px;
+        padding-top: 25px; 
+        margin-left: 20px;
+    }
+    /* .what2{
+        display: none;
+    } */
+    .what2{
+        color: rgb(20, 20, 112);
+        font-size: 20px;
+        font-family:"Poppins";
+        font-weight: 600;
+        height: 100px;
+        padding-top: 25px;
+        margin-top: -15px;
+        margin-left: 30px; 
+    }
+    .answer1{
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgb(130, 126, 126);
+        line-height: 2;
+        margin-top: 10px;
+        padding: 0px 10px;
+        display: none;
+        height: 80px;
+        
+        
+    }
+    .answer2{
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: rgb(130, 126, 126);
+        line-height: 1;
+        margin-top: 30px;
+        padding: 0px 20px;
+        display: none;
+        height: 285px;
+        margin-top: 10px;
+        
     }
     #plus{
         border: none;
@@ -762,5 +832,24 @@
         justify-content: center;
         cursor: pointer;
         
+    }
+    #plus2{
+        border: none;
+        background-color: whitesmoke;
+        font-size: 17px;
+        padding:  7px;
+        border-radius: 5px;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    .diff{
+        display: block;
+    }
+    .dif{
+        display: none;
     }
 }

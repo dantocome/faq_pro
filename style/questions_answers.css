@@ -725,9 +725,7 @@
 }
 
 @media screen and (max-width:375px){
-     .diff{
-        display: block;
-     }
+     
     .questions_answers{
         height: 950px;
         padding: 20px;
@@ -782,7 +780,7 @@
         padding-top: 25px; 
         margin-left: 20px;
     }
-    .what22{
+    /* .what22{
         color: rgb(20, 20, 112);
         font-size: 20px;
         font-family:"Poppins";
@@ -791,19 +789,16 @@
         gap: 70px;
         padding-top: 25px; 
         margin-left: 20px;
-    }
+    } */
+    
+    
+    
     /* .what2{
         display: none;
     } */
     .what2{
-        color: rgb(20, 20, 112);
-        font-size: 20px;
-        font-family:"Poppins";
-        font-weight: 600;
-        height: 100px;
-        padding-top: 25px;
-        margin-top: -15px;
-        margin-left: 20px; 
+        margin-right: 40px;
+        margin-left: 20px;
         
     }
     .answer1{
@@ -843,19 +838,22 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        margin-left: 20px;
         
     }
     #plus2{
         border: none;
         background-color: whitesmoke;
         font-size: 17px;
-        padding:  7px;
+        padding:  5px;
         border-radius: 5px;
         height: 4vh;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        margin-left: 255px;
+        margin-top: -58px;
         
     }
     .diff{

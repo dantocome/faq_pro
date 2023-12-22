@@ -1,5 +1,5 @@
 .footer{
-    height: 500px;
+    
     background-color:  rgb(45, 11, 92);
     margin-top: 50px;
     
@@ -81,4 +81,43 @@ h3{
 .socials{
     display: flex;
     gap: 20px;
+}
+
+@media screen and (max-width:375px){
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .logo2{
+        margin-top: 70px;
+    }
+    .icon-niga{
+        margin-left: -110px;
+        gap: 20px;
+    }
+
+    .carbon-acc{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .closing{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .apple{
+        
+    }
+    .acc1{
+        
+    }
+    .end{
+        
+    }
+    .socials{
+        
+    }
 }

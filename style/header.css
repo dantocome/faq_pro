@@ -66,9 +66,14 @@ li a{
         justify-content: center;
         top: 0;
         position: sticky;
+    
     }
   .logo_list{
     display: none;
+  }
+
+  .logo-link{
+
   }
   .login{
     display: none;
@@ -76,6 +81,7 @@ li a{
   .menu-icon{
     display: block;
     margin-top: 10px;
+    border: 1px solid white;
   }
 
   .logo{
@@ -85,12 +91,14 @@ li a{
     align-items: center;
     justify-content: center;
     margin-left: -20px;
+    border: 1px solid white;
     
   }
 .carbon-logo{
     height: 30px;
     width: 120px;
     margin-top: 10px;
+    border: 1px solid white;
     
 }
 }

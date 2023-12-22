@@ -6,6 +6,7 @@
     min-height: 970px;
     max-width: 100%;
     margin-top: -650px;  
+    
 }
 .ask{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -41,6 +42,10 @@
         line-height: 1; 
         margin-left: -70px;
         padding-top: 90px; 
+        
+    }
+    .dark{
+        
     }
     .ask{
         display: none;
@@ -53,5 +58,6 @@
     }
 .ignit-carbon{
     margin-top: 10px;
+    
 }
 }

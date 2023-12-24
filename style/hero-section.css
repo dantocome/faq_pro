@@ -28,6 +28,138 @@
     display: none;
 }
 
+@media screen and (max-width:700px){
+    .bg{
+        display:none;
+    }
+    .sk{
+        display: block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: rgb(14, 14, 98);
+        font-size: 31px;
+        font-weight: 700;
+        padding: 0px 100px;
+        line-height: 1; 
+        margin-left: -70px;
+        padding-top: 90px; 
+        
+    }
+    
+    .ask{
+        display: none;
+    }
+    .hero-section{
+        height: 240px; 
+        margin-top: 200px;
+        background-color: rgb(253, 249, 251);
+        
+    }
+.ignit-carbon{
+    margin-top: 10px;
+    
+}
+}
+
+
+@media screen and (max-width:600px){
+    .bg{
+        display:none;
+    }
+    .sk{
+        display: block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: rgb(14, 14, 98);
+        font-size: 31px;
+        font-weight: 700;
+        padding: 0px 100px;
+        line-height: 1; 
+        margin-left: -70px;
+        padding-top: 90px; 
+        
+    }
+    
+    .ask{
+        display: none;
+    }
+    .hero-section{
+        height: 240px; 
+        margin-top: 200px;
+        background-color: rgb(253, 249, 251);
+        
+    }
+.ignit-carbon{
+    margin-top: 10px;
+    
+}
+}
+
+
+@media screen and (max-width:500px){
+    .bg{
+        display:none;
+    }
+    .sk{
+        display: block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: rgb(14, 14, 98);
+        font-size: 31px;
+        font-weight: 700;
+        padding: 0px 100px;
+        line-height: 1; 
+        margin-left: -70px;
+        padding-top: 90px; 
+        
+    }
+    
+    .ask{
+        display: none;
+    }
+    .hero-section{
+        height: 240px; 
+        margin-top: 200px;
+        background-color: rgb(253, 249, 251);
+        
+    }
+.ignit-carbon{
+    margin-top: 10px;
+    
+}
+}
+
+
+@media screen and (max-width:400px){
+    .bg{
+        display:none;
+    }
+    .sk{
+        display: block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: rgb(14, 14, 98);
+        font-size: 31px;
+        font-weight: 700;
+        padding: 0px 100px;
+        line-height: 1; 
+        margin-left: -70px;
+        padding-top: 90px; 
+        
+    }
+    
+    .ask{
+        display: none;
+    }
+    .hero-section{
+        height: 240px; 
+        margin-top: 200px;
+        background-color: rgb(253, 249, 251);
+        
+    }
+.ignit-carbon{
+    margin-top: 10px;
+    
+}
+}
+
+
 @media screen and (max-width:375px){
     .bg{
         display:none;

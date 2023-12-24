@@ -37,6 +37,11 @@
     margin-left: -20px;
     height:75px ;
 }
+/* .question12 {
+    width: 600px;
+    height: 75px;
+    margin-left: -20px;
+} */
 
 .question6{
     width: 630px;
@@ -966,6 +971,12 @@
         width: 320px;
         margin-left: -20px;
         height: 100px;
+    }
+
+    .question12 {
+        width: 320px;
+        height: 75px;
+        margin-left: -20px;
     }
 
 

@@ -234,7 +234,7 @@ h3{
     
     .footer{
         margin-top: -100px;
-        height: 1130px;
+    
     }
     
     .logo2{
@@ -256,6 +256,8 @@ h3{
         flex-direction: column;
         gap: 50px;
         margin-top: -30px;
+    
+    
     }
     .apple{
         gap: 12px;
@@ -265,8 +267,8 @@ h3{
     .socials{
         display: flex;
         gap: 10px;
-        margin-left: -200px;
         margin-top: -20px;
+        
     }
     .end{
         margin-left: 30px;
@@ -281,9 +283,12 @@ h3{
         flex-direction: column;
         gap: 3px;
         margin-left: -20px;
+        border: 1px solid red;
     }
     .footer{
         margin-top: -100px;
+    
+        
     }
     .logo2{
         margin-top: 70px;
@@ -304,24 +309,31 @@ h3{
     .closing{
         display: flex;
         flex-direction: column;
-        gap: 48px;
         margin-left: -100px;
-        margin-top: 15px;
+        margin-top: -180px;
+        padding: 150px;
+    
     }
     .apple{
         gap: 12px;
         display: flex;
+        margin-left: -20px;
+        margin-top: 50px;
     }
     .socials{
         display: flex;
         gap: 10px;
         margin-left: -60px;
-        margin-top: -20px;
+        margin-top: -40px;
+        
     }
     .end{
         margin-left: 30px;
         line-height: 1;
         color: rgb(182, 179, 179);
+        padding: 95px;
+        
+    
     }
     
 }

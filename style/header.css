@@ -254,17 +254,18 @@ li a{
   .menu-icon{
     display: block;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
 
   }
 
   .logo{
     display: flex;
-    gap: 170px;
     margin-top: 15px;
     align-items: center;
     justify-content: center;
     margin-left: -20px;
+    border: 1px solid red;
+    width: 350px;
     
   }
 .carbon-logo{

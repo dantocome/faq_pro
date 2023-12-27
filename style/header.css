@@ -143,10 +143,9 @@ li a{
 
   .logo{
      display: flex;
-     gap: 100px;
     margin-top: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     margin-left: -20px;
     border: 1px solid red;
     width: 350px;

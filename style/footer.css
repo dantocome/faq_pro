@@ -83,146 +83,7 @@ h3{
     gap: 20px;
 }
 
-@media screen and (max-width:700px){
-    .foot{
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        margin-left: -20px;
-    }
 
-    .footer{
-        margin-top: -100px;
-    }
-    .logo2{
-        margin-top: 70px;
-    }
-    .icon-niga{
-        margin-left: -110px;
-        gap: 20px;
-    }
-
-    .carbon-acc{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 20px;
-    }
-    .closing{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .apple{
-        gap: 12px;
-        display: flex;
-    }
-    .socials{
-        display: flex;
-        gap: 10px;
-        margin-left: -60px;
-        margin-top: -20px;
-    }
-    .end{
-        margin-left: 30px;
-        line-height: 1;
-        color: rgb(182, 179, 179);
-    }
-}
-
-@media screen and (max-width:600px){
-    .foot{
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        margin-left: -20px;
-    }
-
-    .footer{
-        margin-top: -100px;
-    }
-    .logo2{
-        margin-top: 70px;
-    }
-    .icon-niga{
-        margin-left: -110px;
-        gap: 20px;
-    }
-
-    .carbon-acc{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 20px;
-    }
-    .closing{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .apple{
-        gap: 12px;
-        display: flex;
-    }
-    .socials{
-        display: flex;
-        gap: 10px;
-        margin-left: -60px;
-        margin-top: -20px;
-    }
-    .end{
-        margin-left: 30px;
-        line-height: 1;
-        color: rgb(182, 179, 179);
-    }
-}
-
-@media screen and (max-width:500px){
-    .foot{
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        margin-left: -20px;
-    }
-    .footer{
-        margin-top: -100px;
-    }
-
-    .logo2{
-        margin-top: 70px;
-    }
-    .icon-niga{
-        margin-left: -110px;
-        gap: 20px;
-    }
-
-    .carbon-acc{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 20px;
-    }
-    .closing{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .apple{
-        gap: 12px;
-        display: flex;
-    }
-    .socials{
-        display: flex;
-        gap: 10px;
-        margin-left: -60px;
-        margin-top: -20px;
-    }
-    .end{
-        margin-left: 30px;
-        line-height: 1;
-        color: rgb(182, 179, 179);
-    }
-}
 
 @media screen and (max-width:414px){
     .foot{
@@ -234,6 +95,8 @@ h3{
     
     .footer{
         margin-top: -100px;
+        height: 1150px;
+        
     
     }
     
@@ -250,6 +113,7 @@ h3{
         flex-wrap: wrap;
         gap: 30px;
         margin-top: 20px;
+        
     }
     .closing{
         display: flex;
@@ -267,7 +131,8 @@ h3{
     .socials{
         display: flex;
         gap: 10px;
-        margin-top: -20px;
+        margin-left: -200px;
+        
         
     }
     .end{

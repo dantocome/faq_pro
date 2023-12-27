@@ -88,13 +88,15 @@ li a{
   .menu-icon{
     display: block;
     margin-top: 10px;
+    margin-left: 200px;
 
   }
 
   .logo{
+    display: flex;
     margin-top: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     margin-left: -20px;
 
     

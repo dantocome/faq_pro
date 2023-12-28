@@ -18,7 +18,7 @@
 }
 .ignit-carbon{
     width:98.8vw;
-    margin-top: -190px;   
+    margin-top: -310px;   
 }
 
 .dark{
@@ -27,107 +27,15 @@
 .sk{
     display: none;
 }
-
-@media screen and (max-width:700px){
-    .bg{
-        display:none;
-    }
-    .sk{
-        display: block;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color: rgb(14, 14, 98);
-        font-size: 31px;
-        font-weight: 700;
-        padding: 0px 100px;
-        line-height: 1; 
-        margin-left: -70px;
-        padding-top: 90px; 
-        
-    }
-    
-    .ask{
-        display: none;
-    }
-    .hero-section{
-        height: 240px; 
-        margin-top: 200px;
-        background-color: rgb(253, 249, 251);
-        
-    }
-.ignit-carbon{
-    margin-top: 10px;
+.cab{
+    display: flex;
+    flex-direction: column;
     
 }
-}
 
 
-@media screen and (max-width:600px){
-    .bg{
-        display:none;
-    }
-    .sk{
-        display: block;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color: rgb(14, 14, 98);
-        font-size: 31px;
-        font-weight: 700;
-        padding: 0px 100px;
-        line-height: 1; 
-        margin-left: -70px;
-        padding-top: 90px; 
-        
-    }
-    
-    .ask{
-        display: none;
-    }
-    .hero-section{
-        height: 240px; 
-        margin-top: 200px;
-        background-color: rgb(253, 249, 251);
-        
-    }
-.ignit-carbon{
-    margin-top: 10px;
-    
-}
-}
 
-
-@media screen and (max-width:500px){
-    .bg{
-        display:none;
-    }
-    .sk{
-        display: block;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color: rgb(14, 14, 98);
-        font-size: 31px;
-        font-weight: 700;
-        padding: 0px 100px;
-        line-height: 1; 
-        margin-left: -70px;
-        padding-top: 90px; 
-        
-    }
-    
-    .ask{
-        display: none;
-    }
-    .hero-section{
-        height: 240px; 
-        margin-top: 200px;
-        background-color: rgb(253, 249, 251);
-        
-    }
-.ignit-carbon{
-    margin-top: 10px;
-    
-}
-}
-
-
-@media screen and (max-width:400px){
+@media screen and (max-width:414px){
     .bg{
         display:none;
     }
